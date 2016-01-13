@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.4.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Eclipse/externallibs/hbase-0.98.0-hadoop2/lib/zookeeper-3.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Eclipse/externallibs/hbase-0.98.0-hadoop2/lib/zookeeper-3.4.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>

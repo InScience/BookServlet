@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hbase-protocol-0.98.0-hadoop2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Eclipse/externallibs/hbase-0.98.0-hadoop2/lib/hbase-protocol-0.98.0-hadoop2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

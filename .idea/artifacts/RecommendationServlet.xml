@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RecommendationServlet">
+    <output-path>$PROJECT_DIR$/out/artifacts/RecommendationServlet</output-path>
+    <root id="archive" name="RecommendationServlet.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RecommendationServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="hadoop-annotations-2.2.0" />
+          <element id="library" level="project" name="hadoop-auth-2.2.0" />
+          <element id="library" level="project" name="guava-12.0.1" />
+          <element id="library" level="project" name="jackson-mapper-asl-1.8.8" />
+          <element id="library" level="project" name="jackson-core-asl-1.8.8" />
+          <element id="library" level="project" name="protobuf-java-2.5.0" />
+          <element id="library" level="project" name="commons-lang-2.6" />
+          <element id="library" level="project" name="commons-configuration-1.6" />
+          <element id="library" level="project" name="slf4j-api-1.6.4" />
+          <element id="library" level="project" name="hbase-protocol-0.98.0-hadoop2" />
+          <element id="library" level="project" name="zookeeper-3.4.5" />
+          <element id="library" level="project" name="htrace-core-2.04" />
+          <element id="library" level="project" name="netty-3.6.6.Final" />
+          <element id="library" level="project" name="commons-codec-1.7" />
+          <element id="library" level="project" name="hbase-common-0.98.0-hadoop2" />
+          <element id="library" level="project" name="hadoop-common-2.2.0" />
+          <element id="library" level="project" name="hbase-client-0.98.0-hadoop2" />
+          <element id="library" level="project" name="commons-logging-1.1.1" />
+          <element id="library" level="project" name="phoenix-4.6.0-HBase-0.98-client" />
+          <element id="library" level="project" name="log4j-1.2.17" />
+          <element id="library" level="project" name="CommonTools" />
+          <element id="library" level="project" name="mymedialite" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RecommendationServlet/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="phoenix-4.6.0-HBase-0.98-client">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/phoenix-4.6.0-HBase-0.98-bin/phoenix-4.6.0-HBase-0.98-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/phoenix-4.6.0-HBase-0.98-bin/phoenix-4.6.0-HBase-0.98-client.jar!/" />
+    </SOURCES>
+  </library>
+</component>

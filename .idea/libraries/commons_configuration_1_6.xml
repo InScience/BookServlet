@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-configuration-1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Eclipse/externallibs/hbase-0.98.0-hadoop2/lib/commons-configuration-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

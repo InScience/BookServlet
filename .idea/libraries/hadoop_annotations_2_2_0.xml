@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hadoop-annotations-2.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Eclipse/externallibs/hbase-0.98.0-hadoop2/lib/hadoop-annotations-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
