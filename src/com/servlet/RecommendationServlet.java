@@ -110,7 +110,6 @@ public class RecommendationServlet extends HttpServlet {
 
             // MAKE FROM IT SHOW RECOMMENDATION METHOD OR SMTH
             List list = algorithm.getRecommendation();
-            System.out.println("LIST: " + list.toString());
             JSONArray jsonArray = new JSONArray();
 
             for (int i = 0; i < list.size(); i++) {

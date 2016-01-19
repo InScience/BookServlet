@@ -9,6 +9,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
+ * Class to save visitor's activity.
+ *
  * Created by Edgars on 10/12/2015.
  * Email: edgars_fjodorovs@inbox.lv
  */

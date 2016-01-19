@@ -172,11 +172,9 @@ public class Visitor extends Table {
     public Boolean identify() throws IOException, SQLException {
         Boolean result = false;
         try {
-            System.out.println("getMd5Id: " + getMd5Id());
             resultSet = hBaseSQLManager.executeSqlGetString(
                     "SELECT MD5_ID FROM VISITOR WHERE MD5_ID ='" + getMd5Id() + "'");
             if (resultSet.next()) result = true;
-            System.out.println("identify result: " + result);
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         } finally {
@@ -186,7 +184,6 @@ public class Visitor extends Table {
                 e.printStackTrace();
             }
         }
-        System.out.println("identify result: " + result);
         return result;
     }
 
@@ -239,24 +236,7 @@ public class Visitor extends Table {
                 }
             }
             if (cookiesId.equals(md5IdSearch)) {
-/*                try {
-                    resultSet = hBaseSQLManager.executeSqlGetString(
-                            "SELECT * FROM VISITOR WHERE MD5_ID = '" + md5IdSearch + "'");
-                    if (resultSet.next()) {
-                        md5DataSearch = resultSet.getString("MD5_DATA");
-                        visitorId = resultSet.getInt("ID");
-                        response.put("visitorId!!!", visitorId);
-                    }
-                } catch (SQLException | ClassNotFoundException e) {
-                    e.printStackTrace();
-                } finally {
-                    if (hBaseSQLManager.statement != null) hBaseSQLManager.statement.close();
-                }*/
                 if (cookiesData.equals(md5DataSearch)) {
-                    // Everything is okay, visitor didn't change anything. OK
-/*                    response.put("message:", "Everything is OK!");
-                    response.put("cookiesId", getMd5Id());
-                    response.put("cookiesData", getMd5Data());*/
                 } else {
                         /* Seems user changed something. We'll update visitor. OK */
                     try {
@@ -277,9 +257,6 @@ public class Visitor extends Table {
                             e.printStackTrace();
                         }
                     }
- /*                   response.put("message", "Visitor data updated!");
-                    response.put("cookiesId", getMd5Id());
-                    response.put("cookiesData", getMd5Data());*/
                 }
             }
         }
@@ -317,9 +294,7 @@ public class Visitor extends Table {
                     }
                 }
                 setMd5Id(md5id);
-/*                response.put("message", "Data assigned to existing visitor!");
-                response.put("cookiesId", getMd5Id());
-                response.put("cookiesData", getMd5Data());*/
+
             } else {
                 try {
                     hBaseSQLManager.executeSqlGetIdOnUpdate(
@@ -351,9 +326,6 @@ public class Visitor extends Table {
                         e.printStackTrace();
                     }
                 }
-/*                response.put("message", "New visitor created!");
-                response.put("cookiesId", getMd5Id());
-                response.put("cookiesData", getMd5Data());*/
             }
         }
 
