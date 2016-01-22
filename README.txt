@@ -48,6 +48,19 @@ Servlet deployment
         choose Servlet .war file from computer and press Deploy.
         Connect to Servlet using link: http://tomcatUrl:port/RecommendationServlet/RecommendationServlet
 
+Using SQL scripts
+-----------------
+
+    * Everything works with HBase database, so add tables first.
+        execute SQL scripts from sql_scripts.txt one by one.
+        * We are now using Apache Phoenix, so connect to it first.
+        * GOTO: /home/edgaras/phoenix
+            then connect to Putty and in command line type:
+                bin/sqlline.py master.pc:2181:/hbase-unsecure
+
+       * Now you'll be able to work with Apache Phoenix.
+
+
 Build
 -----
 
