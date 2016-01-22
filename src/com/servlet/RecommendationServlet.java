@@ -92,7 +92,7 @@ public class RecommendationServlet extends HttpServlet {
         Visitor visitor = new Visitor();
         visitor.setMd5Id(md5Id);
         Algorithm algorithm = null;
-        // TAKE VISITOR ID FROM HBASE LATER...
+
         try {
             if (visitor.identify()) {
                 try {

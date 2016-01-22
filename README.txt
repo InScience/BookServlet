@@ -37,7 +37,7 @@ Description
 
     * Hbase Libraries can be found on server, HBase installation lib folder.
     * Phoenix just should be recognized by itself, when Phoenix is properly installed on server.
-    * For recommendations is used MyMediaLite Java port version 2.03
+    * For recommendations is used MyMediaLite Java port version 2.03. https://github.com/jcnewell/MyMediaLiteJava
     * CommonTools contains packages to work with Algorithms, Database and Books.
 
 Servlet deployment
